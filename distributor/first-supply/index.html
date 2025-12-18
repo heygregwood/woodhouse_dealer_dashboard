@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Supply Dealer Performance | Woodhouse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Work Sans', sans-serif; }
+    .stat-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-left: 4px solid #12ace2; }
+    .dealer-row:hover { background: rgba(18, 172, 226, 0.08); }
+    .positive { color: #22c55e; }
+    .negative { color: #ef4444; }
+  </style>
+</head>
+<body class="bg-white min-h-screen py-8 px-4">
+  <div class="max-w-5xl mx-auto bg-slate-900 rounded-2xl shadow-2xl overflow-hidden">
+    <header class="bg-[#eeecec] px-8 py-5 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-5">
+        <img src="../../assets/img/first-supply.png" alt="First Supply" class="h-12 bg-white rounded p-1">
+        <span class="text-slate-400 text-xl">+</span>
+        <img src="../../assets/img/woodhouse_logo.png" alt="Woodhouse" class="h-10">
+      </a>
+      <a href="/" class="text-slate-600 hover:text-slate-900 text-sm font-medium">← All Distributors</a>
+    </header>
+
+    <section class="py-10 px-8 text-center text-slate-100">
+      <h1 class="text-2xl md:text-3xl font-bold mb-3">First Supply Dealer Performance Report</h1>
+      <p class="text-base text-slate-400">Organic social media performance managed by Woodhouse Turnkey Social Media</p>
+    </section>
+
+    <section class="px-8 pb-10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">9</p>
+          <p class="text-slate-400 text-sm mt-1">Dealers</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">3,758,817</p>
+          <p class="text-slate-400 text-sm mt-1">Impressions</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">55,515</p>
+          <p class="text-slate-400 text-sm mt-1">Engagements</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">1,701</p>
+          <p class="text-slate-400 text-sm mt-1">Leads</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-8 pb-10">
+      <h2 class="text-xl font-bold mb-5 text-white">Dealer Performance Summary</h2>
+      <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+        <table class="w-full text-slate-100">
+          <thead class="bg-slate-700/50 text-sm">
+            <tr>
+              <th class="text-left px-5 py-3 font-semibold text-slate-300">Dealer</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Partner Since</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Posts</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Impressions</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Engagements</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Leads</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">% Change</th>
+            </tr>
+          </thead>
+          <tbody class="text-sm">
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/northern-air-plumbing-heating/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/northern-air-plumbing-heating.png" alt="Northern Air Plumbing & Heating" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Northern Air Plumbing & Heating</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">May 2023</td>
+              <td class="text-center px-3 py-3">517</td>
+              <td class="text-center px-3 py-3">2,649,164</td>
+              <td class="text-center px-3 py-3">17,733</td>
+              <td class="text-center px-3 py-3">262</td>
+              <td class="text-center px-3 py-3 font-semibold positive">+1575%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/north-country-plumbing-heating/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/north-country-plumbing-heating.png" alt="North Country Plumbing & Heating" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">North Country Plumbing & Heating</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">May 2023</td>
+              <td class="text-center px-3 py-3">816</td>
+              <td class="text-center px-3 py-3">802,868</td>
+              <td class="text-center px-3 py-3">21,465</td>
+              <td class="text-center px-3 py-3">898</td>
+              <td class="text-center px-3 py-3 font-semibold positive">+161%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/b-and-c-plumbing-heating/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/b-and-c-plumbing-heating.png" alt="B and C Plumbing & Heating" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">B and C Plumbing & Heating</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">Jun 2022</td>
+              <td class="text-center px-3 py-3">459</td>
+              <td class="text-center px-3 py-3">148,682</td>
+              <td class="text-center px-3 py-3">6,382</td>
+              <td class="text-center px-3 py-3">202</td>
+              <td class="text-center px-3 py-3 font-semibold negative">-12%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/jim-dude-s/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/jim-dude-s.png" alt="Jim & Dude's" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Jim & Dude's</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">Jun 2023</td>
+              <td class="text-center px-3 py-3">326</td>
+              <td class="text-center px-3 py-3">69,551</td>
+              <td class="text-center px-3 py-3">4,832</td>
+              <td class="text-center px-3 py-3">82</td>
+              <td class="text-center px-3 py-3 font-semibold positive">+162%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/perfection-heating/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/perfection-heating.png" alt="Perfection Heating" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Perfection Heating</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">Apr 2021</td>
+              <td class="text-center px-3 py-3">511</td>
+              <td class="text-center px-3 py-3">38,270</td>
+              <td class="text-center px-3 py-3">2,291</td>
+              <td class="text-center px-3 py-3">89</td>
+              <td class="text-center px-3 py-3 font-semibold positive">+608%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/plumbers-mechanical-group-llc/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/plumbers-mechanical-group-llc.png" alt="Plumbers Mechanical Group, LLC" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Plumbers Mechanical Group, LLC</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">Apr 2024</td>
+              <td class="text-center px-3 py-3">207</td>
+              <td class="text-center px-3 py-3">33,056</td>
+              <td class="text-center px-3 py-3">2,231</td>
+              <td class="text-center px-3 py-3">57</td>
+              <td class="text-center px-3 py-3 font-semibold negative">-68%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/patriot-plumbing-heating-air-conditioning/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/patriot-plumbing-heating-air-conditioning.png" alt="Patriot Plumbing, Heating & Air Conditioning" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Patriot Plumbing, Heating & Air Conditioning</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">Apr 2024</td>
+              <td class="text-center px-3 py-3">193</td>
+              <td class="text-center px-3 py-3">9,581</td>
+              <td class="text-center px-3 py-3">499</td>
+              <td class="text-center px-3 py-3">54</td>
+              <td class="text-center px-3 py-3 font-semibold positive">+89%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/brian-s-heating-air-conditioning/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/brian-s-heating-air-conditioning.png" alt="Brian's Heating & Air Conditioning" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Brian's Heating & Air Conditioning</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">Apr 2024</td>
+              <td class="text-center px-3 py-3">191</td>
+              <td class="text-center px-3 py-3">6,707</td>
+              <td class="text-center px-3 py-3">76</td>
+              <td class="text-center px-3 py-3">53</td>
+              <td class="text-center px-3 py-3 font-semibold negative">-100%</td>
+            </tr>
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/brothertons-heating-air-conditioning/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/brothertons-heating-air-conditioning.png" alt="Brothertons  Heating & air conditioning " class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Brothertons  Heating & air conditioning </span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">Apr 2024</td>
+              <td class="text-center px-3 py-3">16</td>
+              <td class="text-center px-3 py-3">938</td>
+              <td class="text-center px-3 py-3">6</td>
+              <td class="text-center px-3 py-3">4</td>
+              <td class="text-center px-3 py-3 font-semibold positive">+∞</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="px-8 pb-10">
+      <h3 class="text-base font-semibold mb-3 text-slate-300">Definitions</h3>
+      <ul class="text-sm text-slate-400 space-y-1.5">
+        <li><span class="text-slate-300 font-medium">Posts</span> — Total content published to social media accounts</li>
+        <li><span class="text-slate-300 font-medium">Impressions</span> — Number of times posts appeared in feeds (reach)</li>
+        <li><span class="text-slate-300 font-medium">Engagements</span> — Total interactions including likes, comments, shares, and clicks</li>
+        <li><span class="text-slate-300 font-medium">Leads</span> — Messages received through social media (potential customer inquiries)</li>
+        <li><span class="text-slate-300 font-medium">% Change</span> — Compares current Woodhouse-managed performance to pre-Woodhouse baseline</li>
+      </ul>
+    </section>
+
+    <footer class="px-8 py-8 border-t border-slate-800 text-center">
+      <div class="flex items-center justify-center gap-5 mb-3">
+        <img src="../../assets/img/first-supply.png" alt="First Supply" class="h-8 bg-white rounded p-1">
+        <span class="text-slate-600">+</span>
+        <img src="../../assets/img/woodhouse_logo.png" alt="Woodhouse" class="h-7">
+      </div>
+      <p class="text-slate-500 text-sm">Powered by <span class="text-[#12ace2]">Woodhouse Turnkey Social Media</span></p>
+    </footer>
+  </div>
+</body>
+</html>

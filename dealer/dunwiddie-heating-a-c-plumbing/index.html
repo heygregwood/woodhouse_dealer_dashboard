@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dunwiddie Heating, A/C & Plumbing | Woodhouse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Work Sans', sans-serif; }
+    .stat-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-left: 4px solid #12ace2; }
+    .positive { color: #22c55e; }
+    .negative { color: #ef4444; }
+  </style>
+</head>
+<body class="bg-white min-h-screen py-8 px-4">
+  <div class="max-w-5xl mx-auto bg-slate-900 rounded-2xl shadow-2xl overflow-hidden">
+    <header class="bg-[#eeecec] px-8 py-5 flex items-center justify-between">
+      <a href="/distributor/gw-berkheimer/" class="flex items-center gap-5">
+        <img src="../../assets/img/gw-berkheimer.png" alt="GW Berkheimer" class="h-12 bg-white rounded p-1">
+        <span class="text-slate-400 text-xl">+</span>
+        <img src="../../assets/img/woodhouse_logo.png" alt="Woodhouse" class="h-10">
+      </a>
+      <a href="/distributor/gw-berkheimer/" class="text-slate-600 hover:text-slate-900 text-sm font-medium">← Back to GW Berkheimer</a>
+    </header>
+
+    <section class="py-8 px-8 border-b border-slate-800">
+      <div class="flex items-center gap-5">
+        <img src="../../assets/img/dunwiddie-heating-a-c-plumbing.png" alt="Dunwiddie Heating, A/C & Plumbing" class="h-16 w-auto max-w-[150px] object-contain bg-white rounded-xl p-3">
+        <div>
+          <h1 class="text-2xl md:text-3xl font-bold text-white mb-1">Dunwiddie Heating, A/C & Plumbing</h1>
+          <p class="text-slate-400">Woodhouse Partner since March 2021</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8 px-8">
+      <h2 class="text-xl font-bold mb-5 text-white">Performance Comparison</h2>
+      <p class="text-slate-400 text-sm mb-4">Comparing pre-Woodhouse baseline to current Woodhouse-managed performance</p>
+      <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+        <table class="w-full text-slate-100">
+          <thead class="bg-slate-700/50 text-sm">
+            <tr>
+              <th class="text-left px-6 py-3 font-semibold text-slate-300">Metric</th>
+              <th class="text-center px-6 py-3 font-semibold text-slate-300">Before Woodhouse</th>
+              <th class="text-center px-6 py-3 font-semibold text-slate-300">With Woodhouse</th>
+              <th class="text-center px-6 py-3 font-semibold text-slate-300">Change</th>
+            </tr>
+          </thead>
+          <tbody class="text-sm">
+            <tr class="border-t border-slate-700">
+              <td class="px-6 py-3 font-medium">Posts</td>
+              <td class="text-center px-6 py-3 text-slate-400">4</td>
+              <td class="text-center px-6 py-3 font-semibold">587</td>
+              <td class="text-center px-6 py-3 font-semibold positive">+14575%</td>
+            </tr>
+            <tr class="border-t border-slate-700">
+              <td class="px-6 py-3 font-medium">Impressions</td>
+              <td class="text-center px-6 py-3 text-slate-400">10,661</td>
+              <td class="text-center px-6 py-3 font-semibold">503,434</td>
+              <td class="text-center px-6 py-3 font-semibold positive">+4622%</td>
+            </tr>
+            <tr class="border-t border-slate-700">
+              <td class="px-6 py-3 font-medium">Engagements</td>
+              <td class="text-center px-6 py-3 text-slate-400">145</td>
+              <td class="text-center px-6 py-3 font-semibold">4,854</td>
+              <td class="text-center px-6 py-3 font-semibold positive">+3248%</td>
+            </tr>
+            <tr class="border-t border-slate-700">
+              <td class="px-6 py-3 font-medium">Video Views</td>
+              <td class="text-center px-6 py-3 text-slate-400">0</td>
+              <td class="text-center px-6 py-3 font-semibold">4,881</td>
+              <td class="text-center px-6 py-3 font-semibold positive">+∞</td>
+            </tr>
+            <tr class="border-t border-slate-700">
+              <td class="px-6 py-3 font-medium">Leads (Messages)</td>
+              <td class="text-center px-6 py-3 text-slate-400">2</td>
+              <td class="text-center px-6 py-3 font-semibold">177</td>
+              <td class="text-center px-6 py-3 font-semibold positive">+8750%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="py-8 px-8">
+      <h2 class="text-xl font-bold mb-5 text-white">Network Benchmark</h2>
+      <p class="text-slate-400 text-sm mb-4">How your performance compares to the Woodhouse network average (110 dealers)</p>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-slate-800 rounded-xl p-5 border border-slate-700">
+          <p class="text-slate-400 text-sm mb-2">Your Impressions</p>
+          <p class="text-2xl font-bold text-white">503,434</p>
+          <p class="text-sm mt-1 positive">+99% vs network avg</p>
+          <p class="text-xs text-slate-500 mt-1">Network avg: 252,455</p>
+        </div>
+        <div class="bg-slate-800 rounded-xl p-5 border border-slate-700">
+          <p class="text-slate-400 text-sm mb-2">Your Engagements</p>
+          <p class="text-2xl font-bold text-white">4,854</p>
+          <p class="text-sm mt-1 positive">+27% vs network avg</p>
+          <p class="text-xs text-slate-500 mt-1">Network avg: 3,818</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8 px-8">
+      <h2 class="text-xl font-bold mb-5 text-white">Audience Growth</h2>
+      <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+        <table class="w-full text-slate-100">
+          <thead class="bg-slate-700/50 text-sm">
+            <tr>
+              <th class="text-center px-6 py-3 font-semibold text-slate-300">Starting Followers</th>
+              <th class="text-center px-6 py-3 font-semibold text-slate-300">Current Followers</th>
+              <th class="text-center px-6 py-3 font-semibold text-slate-300">Growth</th>
+            </tr>
+          </thead>
+          <tbody class="text-sm">
+            <tr class="border-t border-slate-700">
+              <td class="text-center px-6 py-3 text-slate-400">84</td>
+              <td class="text-center px-6 py-3 font-semibold">154</td>
+              <td class="text-center px-6 py-3 font-semibold positive">+83%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="py-8 px-8">
+      <h2 class="text-xl font-bold mb-5 text-white">Monthly Performance</h2>
+      <div class="bg-slate-800 rounded-xl p-5 border border-slate-700">
+        <canvas id="impressionsChart" height="280"></canvas>
+      </div>
+    </section>
+
+    <section class="py-8 px-8">
+      <h3 class="text-base font-semibold mb-3 text-slate-300">Definitions</h3>
+      <ul class="text-sm text-slate-400 space-y-1.5">
+        <li><span class="text-slate-300 font-medium">Posts</span> — Content published to your social accounts</li>
+        <li><span class="text-slate-300 font-medium">Impressions</span> — How many times your posts were seen in feeds</li>
+        <li><span class="text-slate-300 font-medium">Engagements</span> — Likes, comments, shares, and clicks on your content</li>
+        <li><span class="text-slate-300 font-medium">Video Views</span> — Number of times videos were watched</li>
+        <li><span class="text-slate-300 font-medium">Leads (Messages)</span> — Messages received through social media</li>
+        <li><span class="text-slate-300 font-medium">Network Benchmark</span> — Your performance compared to the average across all 110 Woodhouse-managed dealers</li>
+      </ul>
+    </section>
+
+    <footer class="px-8 py-8 border-t border-slate-800 text-center">
+      <div class="flex items-center justify-center gap-5 mb-3">
+        <img src="../../assets/img/gw-berkheimer.png" alt="GW Berkheimer" class="h-8 bg-white rounded p-1">
+        <span class="text-slate-600">+</span>
+        <img src="../../assets/img/woodhouse_logo.png" alt="Woodhouse" class="h-7">
+      </div>
+      <p class="text-slate-500 text-sm">Powered by <span class="text-[#12ace2]">Woodhouse Turnkey Social Media</span></p>
+    </footer>
+  </div>
+
+  <script>
+    const monthly = [{"month": "2020-01", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-02", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-03", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-04", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-05", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-06", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-07", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-08", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-09", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-10", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-11", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2020-12", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2021-01", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2021-02", "impressions": 0, "engagements": 0, "posts": 0, "video_views": 0}, {"month": "2021-03", "impressions": 82772, "engagements": 689, "posts": 12, "video_views": 12}, {"month": "2021-04", "impressions": 74824, "engagements": 814, "posts": 9, "video_views": 9}, {"month": "2021-05", "impressions": 99527, "engagements": 655, "posts": 11, "video_views": 5}, {"month": "2021-06", "impressions": 36078, "engagements": 277, "posts": 10, "video_views": 21}, {"month": "2021-07", "impressions": 17601, "engagements": 255, "posts": 11, "video_views": 25}, {"month": "2021-08", "impressions": 28672, "engagements": 296, "posts": 10, "video_views": 29}, {"month": "2021-09", "impressions": 30566, "engagements": 194, "posts": 10, "video_views": 13}, {"month": "2021-10", "impressions": 34908, "engagements": 203, "posts": 10, "video_views": 44}, {"month": "2021-11", "impressions": 37413, "engagements": 259, "posts": 8, "video_views": 40}, {"month": "2021-12", "impressions": 39386, "engagements": 268, "posts": 11, "video_views": 98}, {"month": "2022-01", "impressions": 829, "engagements": 53, "posts": 9, "video_views": 170}, {"month": "2022-02", "impressions": 5872, "engagements": 173, "posts": 8, "video_views": 201}, {"month": "2022-03", "impressions": 935, "engagements": 53, "posts": 9, "video_views": 109}, {"month": "2022-04", "impressions": 1199, "engagements": 34, "posts": 10, "video_views": 57}, {"month": "2022-05", "impressions": 643, "engagements": 50, "posts": 11, "video_views": 67}, {"month": "2022-06", "impressions": 619, "engagements": 45, "posts": 11, "video_views": 108}, {"month": "2022-07", "impressions": 883, "engagements": 89, "posts": 9, "video_views": 182}, {"month": "2022-08", "impressions": 666, "engagements": 47, "posts": 11, "video_views": 147}, {"month": "2022-09", "impressions": 534, "engagements": 43, "posts": 8, "video_views": 125}, {"month": "2022-10", "impressions": 614, "engagements": 47, "posts": 12, "video_views": 157}, {"month": "2022-11", "impressions": 387, "engagements": 27, "posts": 11, "video_views": 40}, {"month": "2022-12", "impressions": 357, "engagements": 32, "posts": 12, "video_views": 43}, {"month": "2023-01", "impressions": 849, "engagements": 26, "posts": 11, "video_views": 102}, {"month": "2023-02", "impressions": 360, "engagements": 13, "posts": 9, "video_views": 70}, {"month": "2023-03", "impressions": 275, "engagements": 18, "posts": 6, "video_views": 43}, {"month": "2023-04", "impressions": 743, "engagements": 41, "posts": 12, "video_views": 80}, {"month": "2023-05", "impressions": 219, "engagements": 4, "posts": 10, "video_views": 39}, {"month": "2023-06", "impressions": 358, "engagements": 12, "posts": 11, "video_views": 68}, {"month": "2023-07", "impressions": 1748, "engagements": 77, "posts": 10, "video_views": 198}, {"month": "2023-08", "impressions": 2168, "engagements": 21, "posts": 10, "video_views": 250}, {"month": "2023-09", "impressions": 391, "engagements": 7, "posts": 10, "video_views": 52}, {"month": "2023-10", "impressions": 2700, "engagements": 18, "posts": 12, "video_views": 644}, {"month": "2023-11", "impressions": 1197, "engagements": 10, "posts": 10, "video_views": 289}, {"month": "2023-12", "impressions": 321, "engagements": 14, "posts": 10, "video_views": 70}, {"month": "2024-01", "impressions": 437, "engagements": 16, "posts": 12, "video_views": 99}, {"month": "2024-02", "impressions": 303, "engagements": 6, "posts": 10, "video_views": 41}, {"month": "2024-03", "impressions": 152, "engagements": 5, "posts": 10, "video_views": 28}, {"month": "2024-04", "impressions": 448, "engagements": 2, "posts": 10, "video_views": 119}, {"month": "2024-05", "impressions": 166, "engagements": 2, "posts": 9, "video_views": 29}, {"month": "2024-06", "impressions": 290, "engagements": 2, "posts": 9, "video_views": 23}, {"month": "2024-07", "impressions": 344, "engagements": 3, "posts": 11, "video_views": 48}, {"month": "2024-08", "impressions": 361, "engagements": 4, "posts": 10, "video_views": 38}, {"month": "2024-09", "impressions": 343, "engagements": 2, "posts": 9, "video_views": 31}, {"month": "2024-10", "impressions": 309, "engagements": 8, "posts": 11, "video_views": 40}, {"month": "2024-11", "impressions": 273, "engagements": 4, "posts": 11, "video_views": 42}, {"month": "2024-12", "impressions": 273, "engagements": 6, "posts": 11, "video_views": 80}, {"month": "2025-01", "impressions": 237, "engagements": 9, "posts": 9, "video_views": 46}, {"month": "2025-02", "impressions": 303, "engagements": 10, "posts": 10, "video_views": 71}, {"month": "2025-03", "impressions": 285, "engagements": 4, "posts": 10, "video_views": 56}, {"month": "2025-04", "impressions": 534, "engagements": 5, "posts": 20, "video_views": 41}, {"month": "2025-05", "impressions": 286, "engagements": 5, "posts": 10, "video_views": 59}, {"month": "2025-06", "impressions": 371, "engagements": 12, "posts": 11, "video_views": 59}, {"month": "2025-07", "impressions": 307, "engagements": 3, "posts": 8, "video_views": 68}, {"month": "2025-08", "impressions": 324, "engagements": 7, "posts": 11, "video_views": 50}, {"month": "2025-09", "impressions": 320, "engagements": 7, "posts": 10, "video_views": 40}, {"month": "2025-10", "impressions": 214, "engagements": 2, "posts": 10, "video_views": 52}, {"month": "2025-11", "impressions": 398, "engagements": 10, "posts": 9, "video_views": 86}, {"month": "2025-12", "impressions": 203, "engagements": 1, "posts": 6, "video_views": 28}];
+    const firstPostMonth = "2021-03";
+    const labels = monthly.map(m => m.month);
+    const impressions = monthly.map(m => m.impressions);
+    const posts = monthly.map(m => m.posts);
+    const startIndex = labels.indexOf(firstPostMonth);
+    
+    new Chart(document.getElementById('impressionsChart'), {
+      type: 'line',
+      data: {
+        labels: labels,
+        datasets: [
+          { label: 'Impressions', data: impressions, borderColor: '#12ace2', backgroundColor: 'rgba(18, 172, 226, 0.1)', fill: true, tension: 0.3, yAxisID: 'y' },
+          { label: 'Posts', data: posts, borderColor: '#22c55e', backgroundColor: 'transparent', borderDash: [5, 5], tension: 0.3, yAxisID: 'y1' }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { intersect: false, mode: 'index' },
+        plugins: { 
+          legend: { labels: { color: '#94a3b8' } },
+          annotation: {
+            annotations: startIndex >= 0 ? {
+              startLine: { type: 'line', xMin: startIndex, xMax: startIndex, borderColor: '#f59e0b', borderWidth: 2, borderDash: [6, 6],
+                label: { display: true, content: 'Woodhouse Start', position: 'start', backgroundColor: '#f59e0b', color: '#000', font: { size: 11, weight: 'bold' } }
+              }
+            } : {}
+          }
+        },
+        scales: {
+          x: { ticks: { color: '#64748b' }, grid: { color: '#1e293b' } },
+          y: { type: 'linear', position: 'left', ticks: { color: '#12ace2' }, grid: { color: '#1e293b' } },
+          y1: { type: 'linear', position: 'right', ticks: { color: '#22c55e' }, grid: { display: false } }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winsupply Corporate Dealer Performance | Woodhouse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Work Sans', sans-serif; }
+    .stat-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-left: 4px solid #12ace2; }
+    .dealer-row:hover { background: rgba(18, 172, 226, 0.08); }
+    .positive { color: #22c55e; }
+    .negative { color: #ef4444; }
+  </style>
+</head>
+<body class="bg-white min-h-screen py-8 px-4">
+  <div class="max-w-5xl mx-auto bg-slate-900 rounded-2xl shadow-2xl overflow-hidden">
+    <header class="bg-[#eeecec] px-8 py-5 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-5">
+        <img src="../../assets/img/winsupply-corporate.png" alt="Winsupply Corporate" class="h-12 bg-white rounded p-1">
+        <span class="text-slate-400 text-xl">+</span>
+        <img src="../../assets/img/woodhouse_logo.png" alt="Woodhouse" class="h-10">
+      </a>
+      <a href="/" class="text-slate-600 hover:text-slate-900 text-sm font-medium">← All Distributors</a>
+    </header>
+
+    <section class="py-10 px-8 text-center text-slate-100">
+      <h1 class="text-2xl md:text-3xl font-bold mb-3">Winsupply Corporate Dealer Performance Report</h1>
+      <p class="text-base text-slate-400">Organic social media performance managed by Woodhouse Turnkey Social Media</p>
+    </section>
+
+    <section class="px-8 pb-10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">1</p>
+          <p class="text-slate-400 text-sm mt-1">Dealers</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">20,785</p>
+          <p class="text-slate-400 text-sm mt-1">Impressions</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">192</p>
+          <p class="text-slate-400 text-sm mt-1">Engagements</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">7</p>
+          <p class="text-slate-400 text-sm mt-1">Leads</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-8 pb-10">
+      <h2 class="text-xl font-bold mb-5 text-white">Dealer Performance Summary</h2>
+      <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+        <table class="w-full text-slate-100">
+          <thead class="bg-slate-700/50 text-sm">
+            <tr>
+              <th class="text-left px-5 py-3 font-semibold text-slate-300">Dealer</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Partner Since</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Posts</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Impressions</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Engagements</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Leads</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">% Change</th>
+            </tr>
+          </thead>
+          <tbody class="text-sm">
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='/dealer/frank-devos-national-heating-and-cooling/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="../../assets/img/frank-devos-national-heating-and-cooling.png" alt="Frank Devos National Heating and Cooling" class="h-8 w-auto max-w-[70px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Frank Devos National Heating and Cooling</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3 text-slate-400">May 2021</td>
+              <td class="text-center px-3 py-3">72</td>
+              <td class="text-center px-3 py-3">20,785</td>
+              <td class="text-center px-3 py-3">192</td>
+              <td class="text-center px-3 py-3">7</td>
+              <td class="text-center px-3 py-3 font-semibold positive">+∞</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="px-8 pb-10">
+      <h3 class="text-base font-semibold mb-3 text-slate-300">Definitions</h3>
+      <ul class="text-sm text-slate-400 space-y-1.5">
+        <li><span class="text-slate-300 font-medium">Posts</span> — Total content published to social media accounts</li>
+        <li><span class="text-slate-300 font-medium">Impressions</span> — Number of times posts appeared in feeds (reach)</li>
+        <li><span class="text-slate-300 font-medium">Engagements</span> — Total interactions including likes, comments, shares, and clicks</li>
+        <li><span class="text-slate-300 font-medium">Leads</span> — Messages received through social media (potential customer inquiries)</li>
+        <li><span class="text-slate-300 font-medium">% Change</span> — Compares current Woodhouse-managed performance to pre-Woodhouse baseline</li>
+      </ul>
+    </section>
+
+    <footer class="px-8 py-8 border-t border-slate-800 text-center">
+      <div class="flex items-center justify-center gap-5 mb-3">
+        <img src="../../assets/img/winsupply-corporate.png" alt="Winsupply Corporate" class="h-8 bg-white rounded p-1">
+        <span class="text-slate-600">+</span>
+        <img src="../../assets/img/woodhouse_logo.png" alt="Woodhouse" class="h-7">
+      </div>
+      <p class="text-slate-500 text-sm">Powered by <span class="text-[#12ace2]">Woodhouse Turnkey Social Media</span></p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Allied Air Dealer Performance Dashboard | Woodhouse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Work Sans', sans-serif; }
+    .stat-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-left: 4px solid #12ace2; }
+    .dealer-row:hover { background: rgba(18, 172, 226, 0.08); }
+    .positive { color: #22c55e; }
+    .negative { color: #ef4444; }
+  </style>
+</head>
+<body class="bg-white min-h-screen py-8 px-4">
+  <div class="max-w-6xl mx-auto bg-slate-900 rounded-2xl shadow-2xl overflow-hidden">
+    <header class="bg-[#eeecec] px-8 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-5">
+        <span class="text-xl font-bold text-slate-800">Allied Air</span>
+        <span class="text-slate-400 text-xl">+</span>
+        <img src="assets/img/woodhouse_logo.png" alt="Woodhouse" class="h-10">
+      </div>
+      <div class="text-sm text-slate-600">Data through December 15, 2025</div>
+    </header>
+
+    <section class="py-10 px-8 text-center text-slate-100">
+      <h1 class="text-2xl md:text-3xl font-bold mb-3">Allied Air Dealer Performance Dashboard</h1>
+      <p class="text-base text-slate-400 max-w-2xl mx-auto">Organic social media performance for HVAC dealers managed by Woodhouse Turnkey Social Media</p>
+      <p class="text-sm text-slate-500 mt-2">Excludes paid/boosted impressions</p>
+    </section>
+
+    <section class="px-8 pb-10">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">110</p>
+          <p class="text-slate-400 text-sm mt-1">Dealers</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">17</p>
+          <p class="text-slate-400 text-sm mt-1">Distributors</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">27.8M</p>
+          <p class="text-slate-400 text-sm mt-1">Impressions</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">420K+</p>
+          <p class="text-slate-400 text-sm mt-1">Engagements</p>
+        </div>
+        <div class="stat-card rounded-xl p-5 text-center">
+          <p class="text-3xl font-bold text-white">20K+</p>
+          <p class="text-slate-400 text-sm mt-1">Leads</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-8 pb-10">
+      <h2 class="text-xl font-bold mb-5 text-white">Distributors</h2>
+      <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+        <table class="w-full text-slate-100">
+          <thead class="bg-slate-700/50 text-sm">
+            <tr>
+              <th class="text-left px-5 py-3 font-semibold text-slate-300">Distributor</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Dealers</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Impressions</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Engagements</th>
+              <th class="text-center px-3 py-3 font-semibold text-slate-300">Leads</th>
+            </tr>
+          </thead>
+          <tbody class="text-sm">
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/johnson-supply-equipment-corp/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/johnson-supply-equipment-corp.png" alt="Johnson Supply & Equipment Corp" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Johnson Supply & Equipment Corp</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">28</td>
+              <td class="text-center px-3 py-3">7,449,694</td>
+              <td class="text-center px-3 py-3">147,222</td>
+              <td class="text-center px-3 py-3">7,122</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/gw-berkheimer/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/gw-berkheimer.png" alt="GW Berkheimer" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">GW Berkheimer</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">21</td>
+              <td class="text-center px-3 py-3">3,907,084</td>
+              <td class="text-center px-3 py-3">101,586</td>
+              <td class="text-center px-3 py-3">4,323</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/ihrie-supply-co/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/ihrie-supply-co.png" alt="Ihrie Supply Co" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Ihrie Supply Co</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">9</td>
+              <td class="text-center px-3 py-3">1,120,038</td>
+              <td class="text-center px-3 py-3">16,500</td>
+              <td class="text-center px-3 py-3">963</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/apr-supply-co/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/apr-supply-co.png" alt="APR Supply Co" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">APR Supply Co</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">9</td>
+              <td class="text-center px-3 py-3">6,089,770</td>
+              <td class="text-center px-3 py-3">39,919</td>
+              <td class="text-center px-3 py-3">1,903</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/first-supply/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/first-supply.png" alt="First Supply" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">First Supply</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">9</td>
+              <td class="text-center px-3 py-3">3,758,817</td>
+              <td class="text-center px-3 py-3">55,515</td>
+              <td class="text-center px-3 py-3">1,701</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/hercules-ind/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/hercules-ind.png" alt="Hercules Ind" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Hercules Ind</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">8</td>
+              <td class="text-center px-3 py-3">1,705,035</td>
+              <td class="text-center px-3 py-3">6,198</td>
+              <td class="text-center px-3 py-3">403</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/shearer-supply-llc/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/shearer-supply-llc.png" alt="Shearer Supply LLC" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Shearer Supply LLC</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">7</td>
+              <td class="text-center px-3 py-3">431,868</td>
+              <td class="text-center px-3 py-3">2,760</td>
+              <td class="text-center px-3 py-3">236</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/dennis-supply-co/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/dennis-supply-co.png" alt="Dennis Supply Co" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Dennis Supply Co</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">4</td>
+              <td class="text-center px-3 py-3">2,291,744</td>
+              <td class="text-center px-3 py-3">29,819</td>
+              <td class="text-center px-3 py-3">1,008</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/luce-schwab-kase-inc/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/luce-schwab-kase-inc.png" alt="Luce Schwab & Kase Inc" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Luce Schwab & Kase Inc</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">3</td>
+              <td class="text-center px-3 py-3">85,555</td>
+              <td class="text-center px-3 py-3">1,582</td>
+              <td class="text-center px-3 py-3">154</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/ecco-supply/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/ecco-supply.png" alt="ECCO Supply" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">ECCO Supply</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">2</td>
+              <td class="text-center px-3 py-3">88,398</td>
+              <td class="text-center px-3 py-3">4,017</td>
+              <td class="text-center px-3 py-3">125</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/famous-supply-co/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/famous-supply-co.png" alt="Famous Supply Co" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Famous Supply Co</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">2</td>
+              <td class="text-center px-3 py-3">448,279</td>
+              <td class="text-center px-3 py-3">10,673</td>
+              <td class="text-center px-3 py-3">1,362</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/gustave-a-larson-co/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/gustave-a-larson-co.png" alt="Gustave A Larson Co" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Gustave A Larson Co</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">2</td>
+              <td class="text-center px-3 py-3">39,270</td>
+              <td class="text-center px-3 py-3">2,439</td>
+              <td class="text-center px-3 py-3">104</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/locke-supply-co/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/locke-supply-co.png" alt="Locke Supply Co" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Locke Supply Co</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">2</td>
+              <td class="text-center px-3 py-3">193,123</td>
+              <td class="text-center px-3 py-3">261</td>
+              <td class="text-center px-3 py-3">30</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/monroe-equipment/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/monroe-equipment.png" alt="Monroe Equipment" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Monroe Equipment</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">1</td>
+              <td class="text-center px-3 py-3">18,083</td>
+              <td class="text-center px-3 py-3">529</td>
+              <td class="text-center px-3 py-3">33</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/apco-inc/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/apco-inc.png" alt="APCO Inc" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">APCO Inc</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">1</td>
+              <td class="text-center px-3 py-3">93,786</td>
+              <td class="text-center px-3 py-3">755</td>
+              <td class="text-center px-3 py-3">164</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/homans-associates/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/homans-associates.png" alt="Homans Associates" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Homans Associates</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">1</td>
+              <td class="text-center px-3 py-3">28,765</td>
+              <td class="text-center px-3 py-3">39</td>
+              <td class="text-center px-3 py-3">5</td>
+            </tr>
+
+            <tr class="dealer-row border-t border-slate-700 cursor-pointer" onclick="window.location.href='distributor/winsupply-corporate/'">
+              <td class="px-5 py-3">
+                <div class="flex items-center gap-3">
+                  <img src="assets/img/winsupply-corporate.png" alt="Winsupply Corporate" class="h-8 w-auto max-w-[120px] object-contain bg-white rounded p-1">
+                  <span class="font-medium">Winsupply Corporate</span>
+                </div>
+              </td>
+              <td class="text-center px-3 py-3">1</td>
+              <td class="text-center px-3 py-3">20,785</td>
+              <td class="text-center px-3 py-3">192</td>
+              <td class="text-center px-3 py-3">7</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="px-8 pb-10">
+      <h3 class="text-base font-semibold mb-3 text-slate-300">Definitions</h3>
+      <ul class="text-sm text-slate-400 space-y-1.5">
+        <li><span class="text-slate-300 font-medium">Impressions</span> — Number of times posts appeared in feeds (reach)</li>
+        <li><span class="text-slate-300 font-medium">Engagements</span> — Total interactions including likes, comments, shares, and clicks</li>
+        <li><span class="text-slate-300 font-medium">Leads</span> — Messages received through social media (potential customer inquiries)</li>
+      </ul>
+    </section>
+
+    <footer class="px-8 py-8 border-t border-slate-800 text-center">
+      <p class="text-slate-500 text-sm">Powered by <span class="text-[#12ace2]">Woodhouse Turnkey Social Media</span></p>
+      <p class="text-xs text-slate-600 mt-1">Data sourced from Sprout Social (Organic Only)</p>
+    </footer>
+  </div>
+</body>
+</html>
